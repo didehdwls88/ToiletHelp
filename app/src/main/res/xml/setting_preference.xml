@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="푸시 알림" >
+
+        <SwitchPreference
+            android:key="switchPush"
+            android:title="푸시 알림 설정"
+            android:summaryOn="켜짐"
+            android:summaryOff="꺼짐"
+            android:defaultValue="false"/>
+
+        <SwitchPreference
+            android:key="switchSound"
+            android:title="푸시 알림 소리"
+            android:summaryOn="켜짐"
+            android:summaryOff="꺼짐"
+            android:defaultValue="true"
+            android:dependency="switchPush"/>
+
+        <SwitchPreference
+            android:key="switchVibe"
+            android:title="푸시 알림 진동"
+            android:summaryOn="켜짐"
+            android:summaryOff="꺼짐"
+            android:defaultValue="true"
+            android:dependency="switchPush"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="위치 요청 권한" >
+
+        <SwitchPreference
+            android:key="switchDistance"
+            android:title="위치 요청 권한 설정"
+            android:summaryOn="켜짐"
+            android:summaryOff="꺼짐"
+            android:defaultValue="true"/>
+
+        <ListPreference
+            android:key="listDistance"
+            android:title="푸시알림 받을 위치 설정"
+            android:dialogTitle="내 주변 몇km까지 요청을 보낼(받을)까요?"
+            android:entries="@array/entries_list_distance"
+            android:entryValues="@array/entryvalue_list_distance"
+            android:defaultValue="0"
+            android:summary="%s"
+            android:dependency="switchDistance"/>
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

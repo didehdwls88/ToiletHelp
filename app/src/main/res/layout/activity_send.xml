@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SendActivity"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <EditText
+        android:id="@+id/edtContent"
+        android:gravity="center"
+        android:layout_margin="30dp"
+        android:background="#FFF"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="@string/writemessage"
+        android:layout_weight="1"/>
+
+    <EditText
+
+        android:id="@+id/edtReward"
+        android:gravity="center"
+        android:layout_margin="30dp"
+        android:background="#FFF"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="@string/whatyourreward"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/edtDate"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/help2"
+        android:background="@drawable/button"
+        android:layout_margin="30dp"/>
+
+    <TextView
+        android:id="@+id/gpsF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="1sp"
+        android:textColor="@color/background"/>
+
+    <TextView
+        android:id="@+id/gpsS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="1sp"
+        android:textColor="@color/background"/>
+
+</LinearLayout>

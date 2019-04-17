@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "524772220638",
+    "firebase_url": "https://toilethelp-a5837.firebaseio.com",
+    "project_id": "toilethelp-a5837",
+    "storage_bucket": "toilethelp-a5837.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524772220638:android:ef52bc93f4c33c27",
+        "android_client_info": {
+          "package_name": "edu.reveart.toilethelp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "524772220638-20brt32tp32hq5r95jeuuh9pp4jrls2n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.reveart.toilethelp",
+            "certificate_hash": "608b6d3c2d0d4b91b66a1477a72e3fd18c92494a"
+          }
+        },
+        {
+          "client_id": "524772220638-gmaldt6en3op1ct6apna3v5p0canu7f9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE0rNiC6QqqN70NuqK7GRkMFEJY0Nywgw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "524772220638-gmaldt6en3op1ct6apna3v5p0canu7f9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="entries_list_distance">
+        <item>100m</item>
+        <item>200m</item>
+        <item>500m</item>
+        <item>1000m(1km)</item>
+        <item>2000(2km)</item>
+        <item>5000(5km)</item>
+        <item>10000(10km)</item>
+    </string-array>
+
+    <string-array name="entryvalue_list_distance">
+        <item>100m</item>
+        <item>200m</item>
+        <item>500m</item>
+        <item>1000m(1km)</item>
+        <item>2000m(2km)</item>
+        <item>5000m(5km)</item>
+        <item>10000m(10km)</item>
+    </string-array>
+
+</resources>

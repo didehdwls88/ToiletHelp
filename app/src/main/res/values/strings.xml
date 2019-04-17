@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ToiletHelp</string>
+    <string name="default_notification_channel_name">default_notification_channel_name</string>
+    <string name="default_notification_channel_id">default_notification_channel_id</string>
+    <string name="main">휴지 필요하세요?</string>
+    <string name="help">도움 요청!</string>
+    <string name="help2">도움 요청하기!</string>
+    <string name="help3">도움이 필요해요!</string>
+    <string name="writemessage">메시지를 작성하세요~!</string>
+    <string name="whatyourreward">도움을 주신분에게 드릴게 있나요?</string>
+    <string name="back">뒤로 가기</string>
+    <string name="pushOnOff">푸시 설정 켜기(끄기)</string>
+    <string name="vibeOnOff">진동 설정 켜기(끄기)</string>
+    <string name="soundOnOff">소리 설정 켜기(끄기)</string>
+    <string name="disOnOff">위치 설정 켜기(끄기)</string>
+    <string name="regulateDis">도움을 받거나 줄수있는 위치 설정\n(거리를 조절하세요!)</string>
+    <string name="settingOk">완료</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="warningDistance">환경설정 에서 거리를 선택하세요!</string>
+</resources>
